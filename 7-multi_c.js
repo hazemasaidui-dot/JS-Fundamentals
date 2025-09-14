@@ -1,11 +1,11 @@
 const { argv } = require('node:process');
-const num = process.argv[2];
+const x = process.argv[2];
 let count =1;
 
-if(!Number(num)){
+if(!Number(x)){
     console.log("Missing number of occurrences")
-} else{
-    while(count <= num){
+} else {
+    while(count <= x){
     console.log("C is fun")
     count++
 }
