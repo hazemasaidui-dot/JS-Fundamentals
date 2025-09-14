@@ -1,8 +1,8 @@
 const { argv } = require('node:process');
 const x = process.argv[2];
-let count =1;
+let count = 1;
 
-if(!Number(x)){
+if(!parseInt(x)){
     console.log("Missing number of occurrences")
 } else {
     while(count <= x){
