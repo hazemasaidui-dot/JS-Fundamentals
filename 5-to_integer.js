@@ -4,5 +4,5 @@ const Hazem = process.argv[2];
 if(!Number(Hazem)){
     console.log("Not a number")
 } else {
-    console.log(Math.floor(Hazem))
+    console.log(`My Number: ${Math.floor(Hazem)}`)
 }
